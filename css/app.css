@@ -127,15 +127,16 @@ code {
         transform: translate(-50%, -50%);
     }
 
-#sticky-aside {
+.sticky-aside {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: white;
+    background-color: #373b3e;
     padding: 10px;
     margin: 0;
-}
-
-.hidden {
-    display: none;
+    max-width: 192px
 }
