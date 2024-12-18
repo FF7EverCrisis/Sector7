@@ -126,17 +126,3 @@ code {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-.sticky-aside {
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky;
-    position: -o-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #373b3e;
-    padding: 10px;
-    margin: 0;
-    max-width: 192px
-}
