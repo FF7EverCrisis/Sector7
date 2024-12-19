@@ -259,6 +259,28 @@
         "CharacterNovelCostumeId": 1013,
         "PanelRenderEnvironmentId": 1013,
         "ItemRarityType": 5
+      },
+      {
+        "Id": 1014,
+        "CharacterId": 1,
+        "ResourceId": 1014,
+        "SetWeaponId": 1039,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 20701,
+          "Name": "Boost Wind Pot.",
+          "value": 15
+        },
+        "PassiveSkill1": {
+          "Id": 20703,
+          "Name": "Windstrike Arcanum",
+          "value": 10
+        },
+        "NameLanguageId": 102000000001014,
+        "Name": "Holiday Outfit",
+        "CharacterNovelCostumeId": 1014,
+        "PanelRenderEnvironmentId": 1014,
+        "ItemRarityType": 5
       }
     ]
   },
@@ -794,7 +816,7 @@
         "PassiveSkill0": {
           "Id": 10101,
           "Name": "Boost HP",
-          "value": 10
+          "value": 15
         },
         "PassiveSkill1": {
           "Id": 20302,
@@ -2382,6 +2404,28 @@
         "CharacterNovelCostumeId": 51005,
         "PanelRenderEnvironmentId": 51005,
         "ItemRarityType": 4
+      },
+      {
+        "Id": 51007,
+        "CharacterId": 51,
+        "ResourceId": 51007,
+        "SetWeaponId": 51026,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 53303,
+          "Name": "Physical \u0026 Magic Ward",
+          "value": 10
+        },
+        "PassiveSkill1": {
+          "Id": 51903,
+          "Name": "Buff/Debuff Extension\u002B (Stats/Pot./Res.)",
+          "value": 10
+        },
+        "NameLanguageId": 102000000051007,
+        "Name": "Holiday Helper",
+        "CharacterNovelCostumeId": 51007,
+        "PanelRenderEnvironmentId": 51007,
+        "ItemRarityType": 5
       }
     ]
   },

@@ -6197,6 +6197,239 @@
     ]
   },
   {
+    "Id": 1039,
+    "Name": "Holiday Blade",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 1,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50202,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 50701,
+    "PassiveSkill0": {
+      "Id": 10301,
+      "Name": "Boost MATK",
+      "value": 0
+    },
+    "PassiveSkill1": {
+      "Id": 20701,
+      "Name": "Boost Wind Pot.",
+      "value": 0
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 12,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 1039,
+    "WeaponMedalItemId": 1001039,
+    "AutoWeaponSkillElementType": 7,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 10393,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 31,
+        "BaseMagicalAttack": 41,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 36,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 153,
+        "GrowthMagicalAttack": 207,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 99,
+        "BaseSkillId": 10103901
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10103901,
+        "Name": "Twister Blade",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 101039011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101039011,
+              "AttackType": 2,
+              "ElementType": "Wind",
+              "ElementTypeId": 7,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 5200,
+              "MaxDamageCoefficient": 5200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101039012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10103902,
+        "Name": "Twister Blade",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 101039021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101039021,
+              "AttackType": 2,
+              "ElementType": "Wind",
+              "ElementTypeId": 7,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6200,
+              "MaxDamageCoefficient": 6200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101039022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10103903,
+        "Name": "Twister Blade\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 101039031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101039031,
+              "AttackType": 2,
+              "ElementType": "Wind",
+              "ElementTypeId": 7,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7800,
+              "MaxDamageCoefficient": 7800
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101039032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10103904,
+        "Name": "Twister Blade\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 101039041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101039041,
+              "AttackType": 2,
+              "ElementType": "Wind",
+              "ElementTypeId": 7,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 9400,
+              "MaxDamageCoefficient": 9400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101039042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 2001,
     "Name": "Gatling Gun",
     "SigilBreakId": 3,
@@ -62993,6 +63226,339 @@
     ]
   },
   {
+    "Id": 49031,
+    "Name": "Withering Blaze",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 49,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50202,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 50901,
+    "PassiveSkill0": {
+      "Id": 10301,
+      "Name": "Boost MATK",
+      "value": 0
+    },
+    "PassiveSkill1": {
+      "Id": 20201,
+      "Name": "Boost Fire Pot.",
+      "value": 0
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 49031,
+    "WeaponMedalItemId": 1049031,
+    "AutoWeaponSkillElementType": 2,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 490313,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 29,
+        "BaseMagicalAttack": 41,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 38,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 147,
+        "GrowthMagicalAttack": 204,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 106,
+        "BaseSkillId": 14903101
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 14903101,
+        "Name": "Blazing Ignis",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149031011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149031011,
+              "AttackType": 2,
+              "ElementType": "Fire",
+              "ElementTypeId": 2,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 4400,
+              "MaxDamageCoefficient": 4400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149031012,
+              "SkillBuffDebuffTypeId": 12,
+              "SkillBuffDebuffType": "FireResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031013,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14903102,
+        "Name": "Blazing Ignis",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149031021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149031021,
+              "AttackType": 2,
+              "ElementType": "Fire",
+              "ElementTypeId": 2,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 5100,
+              "MaxDamageCoefficient": 5100
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149031022,
+              "SkillBuffDebuffTypeId": 12,
+              "SkillBuffDebuffType": "FireResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 22,
+              "MaxDurationSec": 22,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031023,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14903103,
+        "Name": "Blazing Ignis\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149031031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149031031,
+              "AttackType": 2,
+              "ElementType": "Fire",
+              "ElementTypeId": 2,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6200,
+              "MaxDamageCoefficient": 6200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149031032,
+              "SkillBuffDebuffTypeId": 12,
+              "SkillBuffDebuffType": "FireResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 26,
+              "MaxDurationSec": 26,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031033,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14903104,
+        "Name": "Blazing Ignis\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149031041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149031041,
+              "AttackType": 2,
+              "ElementType": "Fire",
+              "ElementTypeId": 2,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7000,
+              "MaxDamageCoefficient": 7000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149031042,
+              "SkillBuffDebuffTypeId": 12,
+              "SkillBuffDebuffType": "FireResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 10,
+              "MaxDuplicationDurationSec": 10,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149031043,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 7,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "StatusesCount",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 50001,
     "Name": "Personal Style",
     "SigilBreakId": 0,
@@ -72775,6 +73341,383 @@
               "MaxDamageCoefficient": 2900
             },
             "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 51026,
+    "Name": "Luminary Sword",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 51,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50202,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 51001,
+    "PassiveSkill0": {
+      "Id": 10601,
+      "Name": "Boost HEAL",
+      "value": 0
+    },
+    "PassiveSkill1": {
+      "Id": 51901,
+      "Name": "Buff/Debuff Extension (Stats/Pot./Res.)",
+      "value": 0
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 51026,
+    "WeaponMedalItemId": 1051026,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 510263,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 29,
+        "BaseMagicalAttack": 31,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 52,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 146,
+        "GrowthMagicalAttack": 153,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 145,
+        "BaseSkillId": 15102601
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 15102601,
+        "Name": "Luminary Glow",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 151026011,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026011,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026012,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151026012,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 120,
+              "MaxDamageCoefficient": 120
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026013,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026013,
+              "SkillBuffDebuffTypeId": 27,
+              "SkillBuffDebuffType": "FirePotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102602,
+        "Name": "Luminary Glow",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 151026021,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026021,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026022,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151026022,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 140,
+              "MaxDamageCoefficient": 140
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026023,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026023,
+              "SkillBuffDebuffTypeId": 27,
+              "SkillBuffDebuffType": "FirePotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102603,
+        "Name": "Luminary Glow\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 151026031,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026031,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026032,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151026032,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 160,
+              "MaxDamageCoefficient": 160
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026033,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026033,
+              "SkillBuffDebuffTypeId": 27,
+              "SkillBuffDebuffType": "FirePotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102604,
+        "Name": "Luminary Glow\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 151026041,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026041,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 10,
+              "MaxDuplicationDurationSec": 10,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026042,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151026042,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 170,
+              "MaxDamageCoefficient": 170
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151026043,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151026043,
+              "SkillBuffDebuffTypeId": 27,
+              "SkillBuffDebuffType": "FirePotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 10,
+              "MaxDuplicationDurationSec": 10,
+              "IgnoreResist": false
+            },
             "StatusChange": null,
             "StatusCondition": null
           }
