@@ -1801,12 +1801,12 @@
         "PassiveSkill0": {
           "Id": 10101,
           "Name": "Boost HP",
-          "value": 10
+          "value": 15
         },
         "PassiveSkill1": {
           "Id": 51401,
           "Name": "Boost Phys. Ability Pot.",
-          "value": 10
+          "value": 15
         },
         "NameLanguageId": 102000000020009,
         "Name": "Holiday Suit",
