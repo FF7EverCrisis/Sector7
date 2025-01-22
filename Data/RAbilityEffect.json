@@ -1,0 +1,1083 @@
+[
+  {
+    "RAbilityEnum": 10101,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 25,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 5,
+        "Flat": 50,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 15,
+        "Flat": 150,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 25,
+        "Flat": 250,
+        "Coefficient": 450
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 35,
+        "Flat": 250,
+        "Coefficient": 600
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 45,
+        "Flat": 250,
+        "Coefficient": 700
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 55,
+        "Flat": 250,
+        "Coefficient": 800
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 65,
+        "Flat": 250,
+        "Coefficient": 900
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 80,
+        "Flat": 250,
+        "Coefficient": 950
+      },
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 100,
+        "Flat": 250,
+        "Coefficient": 1000
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10201,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 5,
+        "Flat": 20,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 15,
+        "Flat": 60,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 25,
+        "Flat": 100,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 35,
+        "Flat": 100,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 45,
+        "Flat": 100,
+        "Coefficient": 400
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 55,
+        "Flat": 100,
+        "Coefficient": 500
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10301,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 5,
+        "Flat": 20,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 15,
+        "Flat": 60,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 25,
+        "Flat": 100,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 35,
+        "Flat": 100,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 45,
+        "Flat": 100,
+        "Coefficient": 400
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 55,
+        "Flat": 100,
+        "Coefficient": 500
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10401,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 15,
+        "Flat": 0,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 25,
+        "Flat": 0,
+        "Coefficient": 450
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 35,
+        "Flat": 0,
+        "Coefficient": 600
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 45,
+        "Flat": 0,
+        "Coefficient": 700
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 55,
+        "Flat": 0,
+        "Coefficient": 800
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10501,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 15,
+        "Flat": 0,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 25,
+        "Flat": 0,
+        "Coefficient": 450
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 35,
+        "Flat": 0,
+        "Coefficient": 600
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 45,
+        "Flat": 0,
+        "Coefficient": 700
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 55,
+        "Flat": 0,
+        "Coefficient": 800
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10601,
+    "EffectDetails": [
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 1,
+        "Flat": 5,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 5,
+        "Flat": 10,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 15,
+        "Flat": 30,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 25,
+        "Flat": 50,
+        "Coefficient": 450
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 35,
+        "Flat": 50,
+        "Coefficient": 600
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 45,
+        "Flat": 50,
+        "Coefficient": 700
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 55,
+        "Flat": 50,
+        "Coefficient": 800
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 65,
+        "Flat": 50,
+        "Coefficient": 900
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 80,
+        "Flat": 50,
+        "Coefficient": 950
+      },
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 100,
+        "Flat": 50,
+        "Coefficient": 1000
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10801,
+    "EffectDetails": [
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 1,
+        "Flat": 50,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 5,
+        "Flat": 200,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 15,
+        "Flat": 400,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 25,
+        "Flat": 600,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 35,
+        "Flat": 800,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 45,
+        "Flat": 1000,
+        "Coefficient": 0
+      },
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 55,
+        "Flat": 1200,
+        "Coefficient": 0
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 10803,
+    "EffectDetails": [
+      {
+        "StatType": 8,
+        "MinRAbilityValue": 1,
+        "Flat": 500,
+        "Coefficient": 0
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11001,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 5,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 5,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 15,
+        "Flat": 30,
+        "Coefficient": 70
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 25,
+        "Flat": 50,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 35,
+        "Flat": 50,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 45,
+        "Flat": 50,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 55,
+        "Flat": 50,
+        "Coefficient": 250
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11001,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 5,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 5,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 15,
+        "Flat": 30,
+        "Coefficient": 70
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 25,
+        "Flat": 50,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 35,
+        "Flat": 50,
+        "Coefficient": 150
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 45,
+        "Flat": 50,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 55,
+        "Flat": 50,
+        "Coefficient": 250
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11201,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 5,
+        "Flat": 20,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 15,
+        "Flat": 40,
+        "Coefficient": 140
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 25,
+        "Flat": 60,
+        "Coefficient": 180
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 35,
+        "Flat": 60,
+        "Coefficient": 220
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 45,
+        "Flat": 60,
+        "Coefficient": 250
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 55,
+        "Flat": 60,
+        "Coefficient": 280
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11301,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 5,
+        "Flat": 20,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 15,
+        "Flat": 40,
+        "Coefficient": 140
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 25,
+        "Flat": 60,
+        "Coefficient": 180
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 35,
+        "Flat": 60,
+        "Coefficient": 220
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 45,
+        "Flat": 60,
+        "Coefficient": 250
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 55,
+        "Flat": 60,
+        "Coefficient": 280
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11401,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 15,
+        "Flat": 0,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 25,
+        "Flat": 0,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 35,
+        "Flat": 0,
+        "Coefficient": 400
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11501,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 100
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 15,
+        "Flat": 0,
+        "Coefficient": 200
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 25,
+        "Flat": 0,
+        "Coefficient": 300
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 35,
+        "Flat": 0,
+        "Coefficient": 400
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11901,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 11901,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 5,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 12001,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 5,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 5,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 15,
+        "Flat": 20,
+        "Coefficient": 70
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 25,
+        "Flat": 30,
+        "Coefficient": 90
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 35,
+        "Flat": 30,
+        "Coefficient": 110
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 45,
+        "Flat": 30,
+        "Coefficient": 130
+      },
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 55,
+        "Flat": 30,
+        "Coefficient": 140
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 12001,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 5,
+        "Coefficient": 30
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 5,
+        "Flat": 10,
+        "Coefficient": 50
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 15,
+        "Flat": 20,
+        "Coefficient": 70
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 25,
+        "Flat": 30,
+        "Coefficient": 90
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 35,
+        "Flat": 30,
+        "Coefficient": 110
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 45,
+        "Flat": 30,
+        "Coefficient": 130
+      },
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 55,
+        "Flat": 30,
+        "Coefficient": 140
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53001,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53001,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53001,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53001,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53201,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53201,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53301,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53301,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53302,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53302,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53303,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53303,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53401,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53401,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53401,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53401,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53501,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53502,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53502,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53502,
+    "EffectDetails": [
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53503,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53701,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 50
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 53701,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 150
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54101,
+    "EffectDetails": [
+      {
+        "StatType": 1,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54101,
+    "EffectDetails": [
+      {
+        "StatType": 6,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54401,
+    "EffectDetails": [
+      {
+        "StatType": 2,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54401,
+    "EffectDetails": [
+      {
+        "StatType": 3,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 100
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54401,
+    "EffectDetails": [
+      {
+        "StatType": 4,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  },
+  {
+    "RAbilityEnum": 54401,
+    "EffectDetails": [
+      {
+        "StatType": 5,
+        "MinRAbilityValue": 1,
+        "Flat": 0,
+        "Coefficient": 200
+      }
+    ]
+  }
+]
