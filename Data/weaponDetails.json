@@ -73072,6 +73072,333 @@
     ]
   },
   {
+    "Id": 50013,
+    "Name": "Blade of Ruin",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 50,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50801,
+    "PassiveSkill0": {
+      "Id": 10201,
+      "Name": "Boost PATK",
+      "Value": 0,
+      "Max": 62
+    },
+    "PassiveSkill1": {
+      "Id": 20301,
+      "Name": "Boost Ice Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 11,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 50013,
+    "WeaponMedalItemId": 1050013,
+    "AutoWeaponSkillElementType": 3,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 500133,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 41,
+        "BaseMagicalAttack": 31,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 36,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 202,
+        "GrowthMagicalAttack": 156,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 101,
+        "BaseSkillId": 15001301
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 15001301,
+        "Name": "Frost Slash",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 150013011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 150013011,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 5200,
+              "MaxDamageCoefficient": 5200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013012,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 150013012,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013013,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 30,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "TacticsGaugeChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15001302,
+        "Name": "Frost Slash",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 150013021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 150013021,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6200,
+              "MaxDamageCoefficient": 6200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013022,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 150013022,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013023,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 30,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "TacticsGaugeChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15001303,
+        "Name": "Frost Slash\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 150013031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 150013031,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7800,
+              "MaxDamageCoefficient": 7800
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013032,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 150013032,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013033,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 30,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "TacticsGaugeChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15001304,
+        "Name": "Frost Slash\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 150013041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 150013041,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 9400,
+              "MaxDamageCoefficient": 9400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013042,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 150013042,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 150013043,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 30,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "TacticsGaugeChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 50014,
     "Name": "Squeaky Hammer",
     "SigilBreakId": 0,
@@ -80158,6 +80485,441 @@
               "MinDamageCoefficient": 2900,
               "MaxDamageCoefficient": 2900
             },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 51021,
+    "Name": "Nautilus Spiral",
+    "SigilBreakId": 4,
+    "SigilBreak": "Diamond",
+    "WeaponType": 0,
+    "CharacterId": 51,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50401,
+    "WeaponMateriaSupportId2": 51001,
+    "PassiveSkill0": {
+      "Id": 10601,
+      "Name": "Boost HEAL",
+      "Value": 0,
+      "Max": 62
+    },
+    "PassiveSkill1": {
+      "Id": 51901,
+      "Name": "Buff/Debuff Extension (Stats/Pot./Res.)",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 21,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 51021,
+    "WeaponMedalItemId": 1051021,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 510213,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 30,
+        "BaseMagicalAttack": 31,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 50,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 152,
+        "GrowthMagicalAttack": 154,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 139,
+        "BaseSkillId": 15102101
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 15102101,
+        "Name": "Spiral Edge",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 151021011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151021011,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2600,
+              "MaxDamageCoefficient": 2600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021012,
+              "SkillBuffDebuffTypeId": 14,
+              "SkillBuffDebuffType": "IceResDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021013,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021013,
+              "SkillBuffDebuffTypeId": 16,
+              "SkillBuffDebuffType": "LightningResDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021014,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102102,
+        "Name": "Spiral Edge",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 151021021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151021021,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3000,
+              "MaxDamageCoefficient": 3000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021022,
+              "SkillBuffDebuffTypeId": 14,
+              "SkillBuffDebuffType": "IceResDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 18,
+              "MaxDurationSec": 18,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021023,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021023,
+              "SkillBuffDebuffTypeId": 16,
+              "SkillBuffDebuffType": "LightningResDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 18,
+              "MaxDurationSec": 18,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021024,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102103,
+        "Name": "Spiral Edge\u002B",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 151021031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151021031,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3600,
+              "MaxDamageCoefficient": 3600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021032,
+              "SkillBuffDebuffTypeId": 14,
+              "SkillBuffDebuffType": "IceResDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021033,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021033,
+              "SkillBuffDebuffTypeId": 16,
+              "SkillBuffDebuffType": "LightningResDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021034,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15102104,
+        "Name": "Spiral Edge\u002B\u002B",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 151021041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 151021041,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 4200,
+              "MaxDamageCoefficient": 4200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021042,
+              "SkillBuffDebuffTypeId": 14,
+              "SkillBuffDebuffType": "IceResDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021043,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 151021043,
+              "SkillBuffDebuffTypeId": 16,
+              "SkillBuffDebuffType": "LightningResDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 151021044,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
             "BuffDebuff": null,
             "StatusChange": null,
             "StatusCondition": null
