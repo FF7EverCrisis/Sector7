@@ -1,5 +1,43 @@
 @import '_content/Blazored.Modal/Blazored.Modal.bundle.scp.css';
 
+/* /Component/Modal/WeaponSelector.razor.rz.scp.css */
+.weapondetails[b-e5cha3pv87]
+{
+    border: double;
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    grid-template-rows: repeat(11, minmax(0, 1fr)); /* 45 rows of equal height */
+    height: 52px; /* Set the height of the container */
+    /*overflow-y: auto;  Allow scrolling if content exceeds container */
+}
+
+.weapondetailsimage[b-e5cha3pv87]
+{
+    grid-row: 1 / -1;
+    grid-column: 1 / span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weapondetailname[b-e5cha3pv87] 
+{
+    grid-row: 1 / span 5;
+    grid-column: 6 / span 10;
+    font-size: 0.9cqh
+}
+
+.weapondetailmateria[b-e5cha3pv87] 
+{
+    grid-row: 7 / span 4;
+    grid-column: 7 / span 7;
+}
+
+.weapondetailrability[b-e5cha3pv87] {
+    grid-row: 1 / -1;
+    grid-column: 16 / -1;
+    font-size: 0.9cqh
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-os77r2cnla] {
     position: relative;

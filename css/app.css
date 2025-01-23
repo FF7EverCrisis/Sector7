@@ -185,3 +185,10 @@ code {
             background-color: #EEEEEE;
             box-shadow: 0 1px 8px rgba(0,0,0,0.5);
         }
+
+.bm-container > .blazored-modal-focus-trap > .blazored-modal > .bm-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+}
