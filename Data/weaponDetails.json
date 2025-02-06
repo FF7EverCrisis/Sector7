@@ -20759,6 +20759,341 @@
     ]
   },
   {
+    "Id": 3043,
+    "Name": "J\u00E1rngreipr",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 2,
+    "CharacterId": 3,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50203,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50201,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 51401,
+      "Name": "Boost Phys. Ability Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 32,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 3043,
+    "WeaponMedalItemId": 1003043,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 2,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 30433,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 31,
+        "BaseMagicalAttack": 32,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 37,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 153,
+        "GrowthMagicalAttack": 157,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 103,
+        "BaseSkillId": 10304301
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10304301,
+        "Name": "Armora Breach Surge A",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103043011,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103043011,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 1800,
+              "MaxDamageCoefficient": 1800
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043012,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103043012,
+              "SkillBuffDebuffTypeId": 6,
+              "SkillBuffDebuffType": "PdefDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043013,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304302,
+        "Name": "Armora Breach Surge A",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103043021,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103043021,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2100,
+              "MaxDamageCoefficient": 2100
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043022,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103043022,
+              "SkillBuffDebuffTypeId": 6,
+              "SkillBuffDebuffType": "PdefDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043023,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304303,
+        "Name": "Armora Breach Surge A\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103043031,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103043031,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2400,
+              "MaxDamageCoefficient": 2400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043032,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103043032,
+              "SkillBuffDebuffTypeId": 6,
+              "SkillBuffDebuffType": "PdefDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043033,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304304,
+        "Name": "Armora Breach Surge A\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103043041,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103043041,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2500,
+              "MaxDamageCoefficient": 2500
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043042,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103043042,
+              "SkillBuffDebuffTypeId": 6,
+              "SkillBuffDebuffType": "PdefDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 35,
+              "MaxDurationSec": 35,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103043043,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 4001,
     "Name": "Guard Stick",
     "SigilBreakId": 0,
@@ -41000,6 +41335,277 @@
             "DamageEffect": null,
             "BuffDebuff": null,
             "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 6033,
+    "Name": "Bird of Prey",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 3,
+    "CharacterId": 6,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50701,
+    "PassiveSkill0": {
+      "Id": 10201,
+      "Name": "Boost PATK",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 51401,
+      "Name": "Boost Phys. Ability Pot.",
+      "Value": 0,
+      "Max": 52
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 11,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 6033,
+    "WeaponMedalItemId": 1006033,
+    "AutoWeaponSkillElementType": 6,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 60333,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 41,
+        "BaseMagicalAttack": 30,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 37,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 206,
+        "GrowthMagicalAttack": 152,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 101,
+        "BaseSkillId": 10603301
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10603301,
+        "Name": "Raging Torrent",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 106033011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 106033011,
+              "AttackType": 1,
+              "ElementType": "Water",
+              "ElementTypeId": 6,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 5200,
+              "MaxDamageCoefficient": 5200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 106033012,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 106033012,
+              "SkillStatusChangeTypeId": 11,
+              "SkillStatusChangeType": "ExploitWeakness",
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "EffectCoefficient": 200
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10603302,
+        "Name": "Raging Torrent",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 106033021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 106033021,
+              "AttackType": 1,
+              "ElementType": "Water",
+              "ElementTypeId": 6,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6200,
+              "MaxDamageCoefficient": 6200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 106033022,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 106033022,
+              "SkillStatusChangeTypeId": 11,
+              "SkillStatusChangeType": "ExploitWeakness",
+              "MinDurationSec": 35,
+              "MaxDurationSec": 35,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "EffectCoefficient": 200
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10603303,
+        "Name": "Raging Torrent\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 106033031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 106033031,
+              "AttackType": 1,
+              "ElementType": "Water",
+              "ElementTypeId": 6,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7800,
+              "MaxDamageCoefficient": 7800
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 106033032,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 106033032,
+              "SkillStatusChangeTypeId": 11,
+              "SkillStatusChangeType": "ExploitWeakness",
+              "MinDurationSec": 35,
+              "MaxDurationSec": 35,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "EffectCoefficient": 300
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10603304,
+        "Name": "Raging Torrent\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 106033041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 106033041,
+              "AttackType": 1,
+              "ElementType": "Water",
+              "ElementTypeId": 6,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 9400,
+              "MaxDamageCoefficient": 9400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 106033042,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 106033042,
+              "SkillStatusChangeTypeId": 11,
+              "SkillStatusChangeType": "ExploitWeakness",
+              "MinDurationSec": 45,
+              "MaxDurationSec": 45,
+              "MinDuplicationDurationSec": 9,
+              "MaxDuplicationDurationSec": 9,
+              "EffectCoefficient": 300
+            },
             "StatusCondition": null
           }
         ]

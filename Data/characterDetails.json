@@ -1692,6 +1692,30 @@
         "CharacterNovelCostumeId": 6010,
         "PanelRenderEnvironmentId": 6010,
         "ItemRarityType": 5
+      },
+      {
+        "Id": 6011,
+        "CharacterId": 6,
+        "ResourceId": 6011,
+        "SetWeaponId": 6033,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 20601,
+          "Name": "Boost Water Pot.",
+          "Value": 15,
+          "Max": 0
+        },
+        "PassiveSkill1": {
+          "Id": 20603,
+          "Name": "Waterblade Arcanum",
+          "Value": 10,
+          "Max": 0
+        },
+        "NameLanguageId": 102000000006011,
+        "Name": "Wutai\u0027s Idol",
+        "CharacterNovelCostumeId": 6011,
+        "PanelRenderEnvironmentId": 6011,
+        "ItemRarityType": 5
       }
     ],
     "Stats": [
