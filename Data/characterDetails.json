@@ -115,6 +115,30 @@
         "ItemRarityType": 5
       },
       {
+        "Id": 1006,
+        "CharacterId": 1,
+        "ResourceId": 1006,
+        "SetWeaponId": 1022,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 53303,
+          "Name": "Physical \u0026 Magic Ward",
+          "Value": 10,
+          "Max": 0
+        },
+        "PassiveSkill1": {
+          "Id": 51903,
+          "Name": "Buff/Debuff Extension\u002B (Stats/Pot./Res.)",
+          "Value": 10,
+          "Max": 0
+        },
+        "NameLanguageId": 102000000001006,
+        "Name": "Mystic Coat",
+        "CharacterNovelCostumeId": 1006,
+        "PanelRenderEnvironmentId": 1006,
+        "ItemRarityType": 5
+      },
+      {
         "Id": 1007,
         "CharacterId": 1,
         "ResourceId": 1007,
@@ -472,6 +496,30 @@
         "CharacterNovelCostumeId": 2004,
         "PanelRenderEnvironmentId": 2004,
         "ItemRarityType": 5
+      },
+      {
+        "Id": 2007,
+        "CharacterId": 2,
+        "ResourceId": 2007,
+        "SetWeaponId": 2035,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 53101,
+          "Name": "Reprieve",
+          "Value": 15,
+          "Max": 0
+        },
+        "PassiveSkill1": {
+          "Id": 54801,
+          "Name": "Dragon King\u0027s Mask",
+          "Value": 10,
+          "Max": 0
+        },
+        "NameLanguageId": 102000000002007,
+        "Name": "Dragon King Varvados",
+        "CharacterNovelCostumeId": 2007,
+        "PanelRenderEnvironmentId": 2007,
+        "ItemRarityType": 5
       }
     ],
     "Stats": [
@@ -697,7 +745,7 @@
         "PassiveSkill0": {
           "Id": 10201,
           "Name": "Boost PATK",
-          "Value": 10,
+          "Value": 15,
           "Max": 0
         },
         "PassiveSkill1": {
@@ -2296,15 +2344,15 @@
         "SetWeaponId": 20001,
         "CharacterCostumeParameterId": 1,
         "PassiveSkill0": {
-          "Id": 10401,
-          "Name": "Boost PDEF",
-          "Value": 4,
+          "Id": 10101,
+          "Name": "Boost HP",
+          "Value": 10,
           "Max": 0
         },
         "PassiveSkill1": {
-          "Id": 10801,
-          "Name": "Boost Crit. Pot.",
-          "Value": 4,
+          "Id": 11001,
+          "Name": "Boost ATK",
+          "Value": 10,
           "Max": 0
         },
         "NameLanguageId": 102000000020002,

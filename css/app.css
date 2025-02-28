@@ -113,30 +113,28 @@ code {
     text-align: start;
 }
 
-#search hr.search-text {
-    margin-bottom: 0;
-    position: relative;
-    border: none;
-    height: 1rem;
-    background: #999;
+.search {
+    height: 16px;
+    background: #383A3D;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
 }
 
-    #search hr.search-text::before {
-        content: attr(data-content);
-        display: inline-block;
-        background: #000;
-        font-weight: bold;
-        font-size: 0.75rem;
-        color: #fff;
-        border-radius: 30rem;
-        padding: 0.2rem 1rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+.search-text {
+    font-size: 0.75rem;
+    border-radius: 30rem;
+    background: #16191C;
+    color: #4F5357;
+    font-weight: bold
+}
 
-
+.search-mode {
+    position: absolute;
+    right: 10px;
+}
 
 .tooltiptest {
     display: inline-block;

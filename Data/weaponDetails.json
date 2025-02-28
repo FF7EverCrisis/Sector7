@@ -2988,6 +2988,441 @@
     ]
   },
   {
+    "Id": 1022,
+    "Name": "Mystic Sword",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 1,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 50701,
+    "PassiveSkill0": {
+      "Id": 11001,
+      "Name": "Boost ATK",
+      "Value": 0,
+      "Max": 62
+    },
+    "PassiveSkill1": {
+      "Id": 51301,
+      "Name": "Boost Ability Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 12,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 1022,
+    "WeaponMedalItemId": 1001022,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 10223,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 33,
+        "BaseMagicalAttack": 40,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 36,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 163,
+        "GrowthMagicalAttack": 198,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 98,
+        "BaseSkillId": 10102201
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10102201,
+        "Name": "Forcestream",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 101022011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101022011,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2600,
+              "MaxDamageCoefficient": 2600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022012,
+              "SkillBuffDebuffTypeId": 7,
+              "SkillBuffDebuffType": "MatkDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022013,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022013,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022014,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10102202,
+        "Name": "Forcestream",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 101022021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101022021,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3000,
+              "MaxDamageCoefficient": 3000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022022,
+              "SkillBuffDebuffTypeId": 7,
+              "SkillBuffDebuffType": "MatkDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 18,
+              "MaxDurationSec": 18,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022023,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022023,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 18,
+              "MaxDurationSec": 18,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022024,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10102203,
+        "Name": "Forcestream\u002B",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 101022031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101022031,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3600,
+              "MaxDamageCoefficient": 3600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022032,
+              "SkillBuffDebuffTypeId": 7,
+              "SkillBuffDebuffType": "MatkDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022033,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022033,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022034,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10102204,
+        "Name": "Forcestream\u002B\u002B",
+        "AtbCost": 3,
+        "Effect": [
+          {
+            "Id": 101022041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 101022041,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 4200,
+              "MaxDamageCoefficient": 4200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022042,
+              "SkillBuffDebuffTypeId": 7,
+              "SkillBuffDebuffType": "MatkDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022043,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 101022043,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 3,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 24,
+              "MaxDurationSec": 24,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 101022044,
+            "Order": 3,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 1024,
     "Name": "Shiva\u0027s Blade",
     "SigilBreakId": 0,
@@ -12925,6 +13360,525 @@
               "MinDamageCoefficient": 170,
               "MaxDamageCoefficient": 170
             },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2035,
+    "Name": "Fafnir Rifle",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 3,
+    "CharacterId": 2,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50701,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 10401,
+      "Name": "Boost PDEF",
+      "Value": 0,
+      "Max": 52
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 11,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 2035,
+    "WeaponMedalItemId": 1002035,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 20353,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 37,
+        "BaseMagicalAttack": 33,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 38,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 184,
+        "GrowthMagicalAttack": 167,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 106,
+        "BaseSkillId": 10203501
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10203501,
+        "Name": "Dragon\u0027s Roar",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 102035011,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 102035011,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3400,
+              "MaxDamageCoefficient": 3400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035012,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035012,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035013,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035013,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 40,
+              "MaxDurationSec": 40,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "EffectCoefficient": 50
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035014,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 102035014,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 12,
+              "MaxDurationSec": 12,
+              "MinDuplicationDurationSec": 4,
+              "MaxDuplicationDurationSec": 4,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035015,
+            "Order": 4,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10203502,
+        "Name": "Dragon\u0027s Roar",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 102035021,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 102035021,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3900,
+              "MaxDamageCoefficient": 3900
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035022,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035022,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035023,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035023,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 45,
+              "MaxDurationSec": 45,
+              "MinDuplicationDurationSec": 9,
+              "MaxDuplicationDurationSec": 9,
+              "EffectCoefficient": 60
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035024,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 102035024,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035025,
+            "Order": 4,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10203503,
+        "Name": "Dragon\u0027s Roar\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 102035031,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 102035031,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 4800,
+              "MaxDamageCoefficient": 4800
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035032,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035032,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035033,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035033,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 50,
+              "MaxDurationSec": 50,
+              "MinDuplicationDurationSec": 10,
+              "MaxDuplicationDurationSec": 10,
+              "EffectCoefficient": 80
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035034,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 102035034,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035035,
+            "Order": 4,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10203504,
+        "Name": "Dragon\u0027s Roar\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 102035041,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 102035041,
+              "AttackType": 1,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 5400,
+              "MaxDamageCoefficient": 5400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035042,
+            "Order": 1,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035042,
+              "SkillStatusChangeTypeId": 2,
+              "SkillStatusChangeType": "Provoke",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "EffectCoefficient": 0
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035043,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "StatusChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 102035043,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 12,
+              "MaxDuplicationDurationSec": 12,
+              "EffectCoefficient": 100
+            },
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035044,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 102035044,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 102035045,
+            "Order": 4,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
             "BuffDebuff": null,
             "StatusChange": null,
             "StatusCondition": null
@@ -35281,6 +36235,385 @@
               "SkillDamageType": 1,
               "MinDamageCoefficient": 2900,
               "MaxDamageCoefficient": 2900
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 5038,
+    "Name": "Brilliant Collar",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 0,
+    "CharacterId": 5,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50202,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 51001,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 10601,
+      "Name": "Boost HEAL",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 5038,
+    "WeaponMedalItemId": 1005038,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 50383,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 28,
+        "BaseMagicalAttack": 34,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 50,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 138,
+        "GrowthMagicalAttack": 169,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 138,
+        "BaseSkillId": 10503801
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10503801,
+        "Name": "Brilliant Sault",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 105038011,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038011,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038012,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038012,
+              "SkillBuffDebuffTypeId": 37,
+              "SkillBuffDebuffType": "WindPotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038013,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 105038013,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 120,
+              "MaxDamageCoefficient": 120
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10503802,
+        "Name": "Brilliant Sault",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 105038021,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038021,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038022,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038022,
+              "SkillBuffDebuffTypeId": 37,
+              "SkillBuffDebuffType": "WindPotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038023,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 105038023,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 140,
+              "MaxDamageCoefficient": 140
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10503803,
+        "Name": "Brilliant Sault\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 105038031,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038031,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038032,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038032,
+              "SkillBuffDebuffTypeId": 37,
+              "SkillBuffDebuffType": "WindPotUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038033,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 105038033,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 160,
+              "MaxDamageCoefficient": 160
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10503804,
+        "Name": "Brilliant Sault\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 105038041,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038041,
+              "SkillBuffDebuffTypeId": 3,
+              "SkillBuffDebuffType": "MatkUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038042,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 105038042,
+              "SkillBuffDebuffTypeId": 37,
+              "SkillBuffDebuffType": "WindPotUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 105038043,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 105038043,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 170,
+              "MaxDamageCoefficient": 170
             },
             "BuffDebuff": null,
             "StatusChange": null,
@@ -70243,6 +71576,341 @@
               "MinDamageCoefficient": 2900,
               "MaxDamageCoefficient": 2900
             },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 49022,
+    "Name": "Humus Saber",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 2,
+    "CharacterId": 49,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50203,
+    "WeaponMateriaSupportId1": 50202,
+    "WeaponMateriaSupportId2": 50202,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 20701,
+      "Name": "Boost Wind Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 49022,
+    "WeaponMedalItemId": 1049022,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 2,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 490223,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 31,
+        "BaseMagicalAttack": 32,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 37,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 154,
+        "GrowthMagicalAttack": 157,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 101,
+        "BaseSkillId": 14902201
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 14902201,
+        "Name": "Deaerora Surge A",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149022011,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149022011,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 1700,
+              "MaxDamageCoefficient": 1700
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022012,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149022012,
+              "SkillBuffDebuffTypeId": 22,
+              "SkillBuffDebuffType": "WindResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022013,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14902202,
+        "Name": "Deaerora Surge A",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149022021,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149022021,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2000,
+              "MaxDamageCoefficient": 2000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022022,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149022022,
+              "SkillBuffDebuffTypeId": 22,
+              "SkillBuffDebuffType": "WindResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022023,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14902203,
+        "Name": "Deaerora Surge A\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149022031,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149022031,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2300,
+              "MaxDamageCoefficient": 2300
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022032,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149022032,
+              "SkillBuffDebuffTypeId": 22,
+              "SkillBuffDebuffType": "WindResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 30,
+              "MaxDurationSec": 30,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022033,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 14902204,
+        "Name": "Deaerora Surge A\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 149022041,
+            "Order": 0,
+            "TargetTypeId": 2,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 149022041,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2400,
+              "MaxDamageCoefficient": 2400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022042,
+            "Order": 1,
+            "TargetTypeId": 2,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 149022042,
+              "SkillBuffDebuffTypeId": 22,
+              "SkillBuffDebuffType": "WindResDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 35,
+              "MaxDurationSec": 35,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 149022043,
+            "Order": 2,
+            "TargetTypeId": 2,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "AllOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
             "BuffDebuff": null,
             "StatusChange": null,
             "StatusCondition": null
