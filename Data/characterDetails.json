@@ -358,15 +358,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7722
+        "Value": 9222
       },
       {
         "Type": 2,
-        "Value": 780
+        "Value": 1080
       },
       {
         "Type": 3,
-        "Value": 763
+        "Value": 1063
       },
       {
         "Type": 4,
@@ -525,7 +525,7 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7764
+        "Value": 9264
       },
       {
         "Type": 2,
@@ -537,11 +537,11 @@
       },
       {
         "Type": 4,
-        "Value": 100
+        "Value": 118
       },
       {
         "Type": 5,
-        "Value": 100
+        "Value": 118
       },
       {
         "Type": 6,
@@ -884,15 +884,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7711
+        "Value": 9211
       },
       {
         "Type": 2,
-        "Value": 783
+        "Value": 1083
       },
       {
         "Type": 3,
-        "Value": 760
+        "Value": 1060
       },
       {
         "Type": 4,
@@ -1291,7 +1291,7 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7601
+        "Value": 9101
       },
       {
         "Type": 2,
@@ -1311,7 +1311,7 @@
       },
       {
         "Type": 6,
-        "Value": 742
+        "Value": 922
       }
     ]
   },
@@ -1482,7 +1482,7 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7637
+        "Value": 9137
       },
       {
         "Type": 2,
@@ -1502,7 +1502,7 @@
       },
       {
         "Type": 6,
-        "Value": 740
+        "Value": 920
       }
     ]
   },
@@ -1769,15 +1769,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7680
+        "Value": 9180
       },
       {
         "Type": 2,
-        "Value": 782
+        "Value": 1082
       },
       {
         "Type": 3,
-        "Value": 764
+        "Value": 1064
       },
       {
         "Type": 4,
@@ -1936,15 +1936,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7746
+        "Value": 9246
       },
       {
         "Type": 2,
-        "Value": 773
+        "Value": 1073
       },
       {
         "Type": 3,
-        "Value": 765
+        "Value": 1065
       },
       {
         "Type": 4,
@@ -2151,15 +2151,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7706
+        "Value": 9206
       },
       {
         "Type": 2,
-        "Value": 778
+        "Value": 1078
       },
       {
         "Type": 3,
-        "Value": 767
+        "Value": 1067
       },
       {
         "Type": 4,
@@ -2270,15 +2270,15 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7730
+        "Value": 9230
       },
       {
         "Type": 2,
-        "Value": 778
+        "Value": 1078
       },
       {
         "Type": 3,
-        "Value": 763
+        "Value": 1063
       },
       {
         "Type": 4,
@@ -2557,7 +2557,7 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7716
+        "Value": 9216
       },
       {
         "Type": 2,
@@ -2569,11 +2569,11 @@
       },
       {
         "Type": 4,
-        "Value": 100
+        "Value": 118
       },
       {
         "Type": 5,
-        "Value": 100
+        "Value": 118
       },
       {
         "Type": 6,
@@ -3083,7 +3083,7 @@
     "Stats": [
       {
         "Type": 1,
-        "Value": 7678
+        "Value": 9178
       },
       {
         "Type": 2,
@@ -3103,7 +3103,7 @@
       },
       {
         "Type": 6,
-        "Value": 734
+        "Value": 914
       }
     ]
   },
