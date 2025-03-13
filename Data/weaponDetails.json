@@ -56276,6 +56276,333 @@
     ]
   },
   {
+    "Id": 8024,
+    "Name": "Gun of the Worthy",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 3,
+    "CharacterId": 8,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50901,
+    "PassiveSkill0": {
+      "Id": 11201,
+      "Name": "Boost PATK (All Allies)",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 20301,
+      "Name": "Boost Ice Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 11,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 8024,
+    "WeaponMedalItemId": 1008024,
+    "AutoWeaponSkillElementType": 3,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 80243,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 41,
+        "BaseMagicalAttack": 33,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 34,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 202,
+        "GrowthMagicalAttack": 167,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 92,
+        "BaseSkillId": 10802401
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10802401,
+        "Name": "Frozen Strike",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108024011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108024011,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6200,
+              "MaxDamageCoefficient": 6200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108024012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 2,
+            "TriggerTypeId": 16,
+            "TargetType": "SingleOpponent",
+            "EffectType": "StatusCondition",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": {
+              "Id": 108024012,
+              "SkillStatusConditionTypeId": 19,
+              "SkillStatusConditionType": "IceWeakness",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "IgnoreResist": false
+            }
+          },
+          {
+            "Id": 108024013,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 26,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "LimitChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802402,
+        "Name": "Frozen Strike",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108024021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108024021,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7400,
+              "MaxDamageCoefficient": 7400
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108024022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 2,
+            "TriggerTypeId": 16,
+            "TargetType": "SingleOpponent",
+            "EffectType": "StatusCondition",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": {
+              "Id": 108024022,
+              "SkillStatusConditionTypeId": 19,
+              "SkillStatusConditionType": "IceWeakness",
+              "MinDurationSec": 70,
+              "MaxDurationSec": 70,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "IgnoreResist": false
+            }
+          },
+          {
+            "Id": 108024023,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 26,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "LimitChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802403,
+        "Name": "Frozen Strike\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108024031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108024031,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 9300,
+              "MaxDamageCoefficient": 9300
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108024032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 2,
+            "TriggerTypeId": 16,
+            "TargetType": "SingleOpponent",
+            "EffectType": "StatusCondition",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": {
+              "Id": 108024032,
+              "SkillStatusConditionTypeId": 19,
+              "SkillStatusConditionType": "IceWeakness",
+              "MinDurationSec": 100,
+              "MaxDurationSec": 100,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "IgnoreResist": false
+            }
+          },
+          {
+            "Id": 108024033,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 26,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "LimitChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802404,
+        "Name": "Frozen Strike\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108024041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108024041,
+              "AttackType": 1,
+              "ElementType": "Ice",
+              "ElementTypeId": 3,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 11200,
+              "MaxDamageCoefficient": 11200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108024042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 2,
+            "TriggerTypeId": 16,
+            "TargetType": "SingleOpponent",
+            "EffectType": "StatusCondition",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": {
+              "Id": 108024042,
+              "SkillStatusConditionTypeId": 19,
+              "SkillStatusConditionType": "IceWeakness",
+              "MinDurationSec": 150,
+              "MaxDurationSec": 150,
+              "MinDuplicationDurationSec": 0,
+              "MaxDuplicationDurationSec": 0,
+              "IgnoreResist": false
+            }
+          },
+          {
+            "Id": 108024043,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 26,
+            "TriggerTypeId": 1,
+            "TargetType": "Self",
+            "EffectType": "LimitChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 8025,
     "Name": "Death Penalty",
     "SigilBreakId": 0,
