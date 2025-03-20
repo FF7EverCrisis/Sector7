@@ -22004,6 +22004,341 @@
     ]
   },
   {
+    "Id": 3042,
+    "Name": "Gauntlets of the Worthy",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 3,
+    "CharacterId": 3,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50801,
+    "PassiveSkill0": {
+      "Id": 11201,
+      "Name": "Boost PATK (All Allies)",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 20501,
+      "Name": "Boost Earth Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 31,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 3042,
+    "WeaponMedalItemId": 1003042,
+    "AutoWeaponSkillElementType": 5,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 30423,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 41,
+        "BaseMagicalAttack": 31,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 36,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 206,
+        "GrowthMagicalAttack": 153,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 101,
+        "BaseSkillId": 10304201
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10304201,
+        "Name": "Geo Combo",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103042011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103042011,
+              "AttackType": 1,
+              "ElementType": "Earth",
+              "ElementTypeId": 5,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 6000,
+              "MaxDamageCoefficient": 6000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042012,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103042012,
+              "SkillBuffDebuffTypeId": 33,
+              "SkillBuffDebuffType": "EarthPotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 15,
+              "MaxDurationSec": 15,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042013,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 16,
+            "TriggerTypeId": 16,
+            "TargetType": "Self",
+            "EffectType": "AtbChange",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304202,
+        "Name": "Geo Combo",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103042021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103042021,
+              "AttackType": 1,
+              "ElementType": "Earth",
+              "ElementTypeId": 5,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 7200,
+              "MaxDamageCoefficient": 7200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042022,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103042022,
+              "SkillBuffDebuffTypeId": 33,
+              "SkillBuffDebuffType": "EarthPotUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042023,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 16,
+            "TriggerTypeId": 16,
+            "TargetType": "Self",
+            "EffectType": "AtbChange",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304203,
+        "Name": "Geo Combo\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103042031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103042031,
+              "AttackType": 1,
+              "ElementType": "Earth",
+              "ElementTypeId": 5,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 9900,
+              "MaxDamageCoefficient": 9900
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042032,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103042032,
+              "SkillBuffDebuffTypeId": 33,
+              "SkillBuffDebuffType": "EarthPotUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042033,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 16,
+            "TriggerTypeId": 16,
+            "TargetType": "Self",
+            "EffectType": "AtbChange",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10304204,
+        "Name": "Geo Combo\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 103042041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 103042041,
+              "AttackType": 1,
+              "ElementType": "Earth",
+              "ElementTypeId": 5,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 11200,
+              "MaxDamageCoefficient": 11200
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042042,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 103042042,
+              "SkillBuffDebuffTypeId": 33,
+              "SkillBuffDebuffType": "EarthPotUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 103042043,
+            "Order": 2,
+            "TargetTypeId": 5,
+            "EffectTypeId": 16,
+            "TriggerTypeId": 16,
+            "TargetType": "Self",
+            "EffectType": "AtbChange",
+            "TriggerType": "FirstTime",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Id": 3043,
     "Name": "J\u00E1rngreipr",
     "SigilBreakId": 0,
@@ -30296,6 +30631,341 @@
             "TargetType": "AlliesExcludeSelf",
             "EffectType": "AtbChange",
             "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 4035,
+    "Name": "Noblesse Rod",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 2,
+    "CharacterId": 4,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50203,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50202,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 51501,
+      "Name": "Boost Mag. Ability Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 4035,
+    "WeaponMedalItemId": 1004035,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 2,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 40353,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 29,
+        "BaseMagicalAttack": 31,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 40,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 142,
+        "GrowthMagicalAttack": 156,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 112,
+        "BaseSkillId": 10403501
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10403501,
+        "Name": "Debravera Surge",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 104035011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 104035011,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2600,
+              "MaxDamageCoefficient": 2600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 104035012,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035013,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10403502,
+        "Name": "Debravera Surge",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 104035021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 104035021,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3000,
+              "MaxDamageCoefficient": 3000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 104035022,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 22,
+              "MaxDurationSec": 22,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035023,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10403503,
+        "Name": "Debravera Surge\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 104035031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 104035031,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3500,
+              "MaxDamageCoefficient": 3500
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 104035032,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035033,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10403504,
+        "Name": "Debravera Surge\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 104035041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 104035041,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3600,
+              "MaxDamageCoefficient": 3600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 104035042,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 28,
+              "MaxDurationSec": 28,
+              "MinDuplicationDurationSec": 9,
+              "MaxDuplicationDurationSec": 9,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 104035043,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
             "DamageEffect": null,
             "BuffDebuff": null,
             "StatusChange": null,
@@ -56265,6 +56935,341 @@
             "TriggerTypeId": 1,
             "TargetType": "Self",
             "EffectType": "LimitChange",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 8023,
+    "Name": "Noblesse Automatic",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 2,
+    "CharacterId": 8,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50203,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50202,
+    "PassiveSkill0": {
+      "Id": 10101,
+      "Name": "Boost HP",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 51401,
+      "Name": "Boost Phys. Ability Pot.",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 12,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 8023,
+    "WeaponMedalItemId": 1008023,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 2,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 80233,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 32,
+        "BaseMagicalAttack": 29,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 38,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 159,
+        "GrowthMagicalAttack": 147,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 106,
+        "BaseSkillId": 10802301
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 10802301,
+        "Name": "Debravera Surge",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108023011,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108023011,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 2600,
+              "MaxDamageCoefficient": 2600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023012,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 108023012,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023013,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802302,
+        "Name": "Debravera Surge",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108023021,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108023021,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3000,
+              "MaxDamageCoefficient": 3000
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023022,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 108023022,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 22,
+              "MaxDurationSec": 22,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023023,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802303,
+        "Name": "Debravera Surge\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108023031,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108023031,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3500,
+              "MaxDamageCoefficient": 3500
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023032,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 108023032,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 25,
+              "MaxDurationSec": 25,
+              "MinDuplicationDurationSec": 7,
+              "MaxDuplicationDurationSec": 7,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023033,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 10802304,
+        "Name": "Debravera Surge\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 108023041,
+            "Order": 0,
+            "TargetTypeId": 1,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 108023041,
+              "AttackType": 2,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 3600,
+              "MaxDamageCoefficient": 3600
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023042,
+            "Order": 1,
+            "TargetTypeId": 1,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 108023042,
+              "SkillBuffDebuffTypeId": 5,
+              "SkillBuffDebuffType": "PatkDown",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 28,
+              "MaxDurationSec": 28,
+              "MinDuplicationDurationSec": 9,
+              "MaxDuplicationDurationSec": 9,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 108023043,
+            "Order": 2,
+            "TargetTypeId": 1,
+            "EffectTypeId": 7,
+            "TriggerTypeId": 1,
+            "TargetType": "SingleOpponent",
+            "EffectType": "Additional",
             "TriggerType": "Hit",
             "DamageEffect": null,
             "BuffDebuff": null,

@@ -879,6 +879,30 @@
         "CharacterNovelCostumeId": 3017,
         "PanelRenderEnvironmentId": 3017,
         "ItemRarityType": 5
+      },
+      {
+        "Id": 3018,
+        "CharacterId": 3,
+        "ResourceId": 3018,
+        "SetWeaponId": 3042,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 12001,
+          "Name": "Boost ATK (All Allies)",
+          "Value": 10,
+          "Max": 0
+        },
+        "PassiveSkill1": {
+          "Id": 55301,
+          "Name": "Claw of the Worthy",
+          "Value": 10,
+          "Max": 0
+        },
+        "NameLanguageId": 102000000003018,
+        "Name": "Armor of the Worthy",
+        "CharacterNovelCostumeId": 3018,
+        "PanelRenderEnvironmentId": 3018,
+        "ItemRarityType": 5
       }
     ],
     "Stats": [
