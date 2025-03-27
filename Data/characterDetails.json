@@ -3699,6 +3699,30 @@
         "CharacterNovelCostumeId": 56004,
         "PanelRenderEnvironmentId": 56004,
         "ItemRarityType": 5
+      },
+      {
+        "Id": 56005,
+        "CharacterId": 56,
+        "ResourceId": 56005,
+        "SetWeaponId": 56019,
+        "CharacterCostumeParameterId": 1,
+        "PassiveSkill0": {
+          "Id": 53101,
+          "Name": "Reprieve",
+          "Value": 15,
+          "Max": 0
+        },
+        "PassiveSkill1": {
+          "Id": 55201,
+          "Name": "Crown of the Worthy",
+          "Value": 10,
+          "Max": 0
+        },
+        "NameLanguageId": 102000000056005,
+        "Name": "Garb of the Worthy",
+        "CharacterNovelCostumeId": 56005,
+        "PanelRenderEnvironmentId": 56005,
+        "ItemRarityType": 5
       }
     ],
     "Stats": [

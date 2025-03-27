@@ -98388,5 +98388,476 @@
         ]
       }
     ]
+  },
+  {
+    "Id": 56019,
+    "Name": "Greatsword of the Worthy",
+    "SigilBreakId": 0,
+    "SigilBreak": "0",
+    "WeaponType": 3,
+    "CharacterId": 56,
+    "WeaponLevelGroupId": 1,
+    "BaseExp": 1000,
+    "EnhanceConsumptionGilCoefficient": 80,
+    "WeaponMateriaSupportId0": 50201,
+    "WeaponMateriaSupportId1": 50201,
+    "WeaponMateriaSupportId2": 50901,
+    "PassiveSkill0": {
+      "Id": 12001,
+      "Name": "Boost ATK (All Allies)",
+      "Value": 0,
+      "Max": 46
+    },
+    "PassiveSkill1": {
+      "Id": 10401,
+      "Name": "Boost PDEF",
+      "Value": 0,
+      "Max": 39
+    },
+    "WeaponRaritySettingGroupId": 1,
+    "WeaponReleaseSettingGroupId": 22,
+    "WeaponReleaseParameterGroupId": 1,
+    "WeaponUpgradeParameterGroupId": 1,
+    "WeaponUpgradeConsumptionGroupId": 1,
+    "ResourceId": 56019,
+    "WeaponMedalItemId": 1056019,
+    "AutoWeaponSkillElementType": 1,
+    "WeaponArmourySettingGroupId": 1,
+    "WeaponEquipmentType": 0,
+    "Stats": [
+      {
+        "RarityId": 560193,
+        "RarityName": "star5",
+        "BaseHp": 0,
+        "BasePhysicalAttack": 37,
+        "BaseMagicalAttack": 35,
+        "BasePhysicalDefense": 0,
+        "BaseMagicalDefense": 0,
+        "BaseHealingPower": 35,
+        "GrowthHp": 0,
+        "GrowthPhysicalAttack": 186,
+        "GrowthMagicalAttack": 177,
+        "GrowthPhysicalDefense": 0,
+        "GrowthMagicalDefense": 0,
+        "GrowthHealingPower": 97,
+        "BaseSkillId": 15601901
+      }
+    ],
+    "SkillPassiveModLevel": [],
+    "SkillPassiveModOb": [],
+    "Skills": [
+      {
+        "Id": 15601901,
+        "Name": "Shield of the Mighty",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 156019011,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019011,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 12,
+              "MaxDurationSec": 12,
+              "MinDuplicationDurationSec": 4,
+              "MaxDuplicationDurationSec": 4,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019012,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019012,
+              "SkillBuffDebuffTypeId": 4,
+              "SkillBuffDebuffType": "MdefUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 12,
+              "MaxDurationSec": 12,
+              "MinDuplicationDurationSec": 4,
+              "MaxDuplicationDurationSec": 4,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019013,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 156019013,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 120,
+              "MaxDamageCoefficient": 120
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019014,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "StatusChange",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 156019014,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 40,
+              "MaxDurationSec": 40,
+              "MinDuplicationDurationSec": 8,
+              "MaxDuplicationDurationSec": 8,
+              "EffectCoefficient": 40
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15601902,
+        "Name": "Shield of the Mighty",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 156019021,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019021,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 14,
+              "MaxDurationSec": 14,
+              "MinDuplicationDurationSec": 4,
+              "MaxDuplicationDurationSec": 4,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019022,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019022,
+              "SkillBuffDebuffTypeId": 4,
+              "SkillBuffDebuffType": "MdefUp",
+              "TriggerEffectLevel": 1,
+              "TriggerEffectLevelMax": 2,
+              "MinDurationSec": 14,
+              "MaxDurationSec": 14,
+              "MinDuplicationDurationSec": 4,
+              "MaxDuplicationDurationSec": 4,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019023,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 156019023,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 140,
+              "MaxDamageCoefficient": 140
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019024,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "StatusChange",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 156019024,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 45,
+              "MaxDurationSec": 45,
+              "MinDuplicationDurationSec": 9,
+              "MaxDuplicationDurationSec": 9,
+              "EffectCoefficient": 50
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15601903,
+        "Name": "Shield of the Mighty\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 156019031,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019031,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019032,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019032,
+              "SkillBuffDebuffTypeId": 4,
+              "SkillBuffDebuffType": "MdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 16,
+              "MaxDurationSec": 16,
+              "MinDuplicationDurationSec": 5,
+              "MaxDuplicationDurationSec": 5,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019033,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 156019033,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 160,
+              "MaxDamageCoefficient": 160
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019034,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "StatusChange",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 156019034,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 50,
+              "MaxDurationSec": 50,
+              "MinDuplicationDurationSec": 10,
+              "MaxDuplicationDurationSec": 10,
+              "EffectCoefficient": 80
+            },
+            "StatusCondition": null
+          }
+        ]
+      },
+      {
+        "Id": 15601904,
+        "Name": "Shield of the Mighty\u002B\u002B",
+        "AtbCost": 4,
+        "Effect": [
+          {
+            "Id": 156019041,
+            "Order": 0,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019041,
+              "SkillBuffDebuffTypeId": 2,
+              "SkillBuffDebuffType": "PdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019042,
+            "Order": 1,
+            "TargetTypeId": 4,
+            "EffectTypeId": 3,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "BuffDeBuff",
+            "TriggerType": "Hit",
+            "DamageEffect": null,
+            "BuffDebuff": {
+              "Id": 156019042,
+              "SkillBuffDebuffTypeId": 4,
+              "SkillBuffDebuffType": "MdefUp",
+              "TriggerEffectLevel": 2,
+              "TriggerEffectLevelMax": 3,
+              "MinDurationSec": 20,
+              "MaxDurationSec": 20,
+              "MinDuplicationDurationSec": 6,
+              "MaxDuplicationDurationSec": 6,
+              "IgnoreResist": false
+            },
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019043,
+            "Order": 2,
+            "TargetTypeId": 4,
+            "EffectTypeId": 1,
+            "TriggerTypeId": 1,
+            "TargetType": "AllAlly",
+            "EffectType": "DamageOrHeal",
+            "TriggerType": "Hit",
+            "DamageEffect": {
+              "Id": 156019043,
+              "AttackType": 4,
+              "ElementType": "NoElement",
+              "ElementTypeId": 1,
+              "SkillHealType": 0,
+              "SkillDamageType": 1,
+              "MinDamageCoefficient": 170,
+              "MaxDamageCoefficient": 170
+            },
+            "BuffDebuff": null,
+            "StatusChange": null,
+            "StatusCondition": null
+          },
+          {
+            "Id": 156019044,
+            "Order": 3,
+            "TargetTypeId": 4,
+            "EffectTypeId": 5,
+            "TriggerTypeId": 4,
+            "TargetType": "AllAlly",
+            "EffectType": "StatusChange",
+            "TriggerType": "HpRangeHit",
+            "DamageEffect": null,
+            "BuffDebuff": null,
+            "StatusChange": {
+              "Id": 156019044,
+              "SkillStatusChangeTypeId": 6,
+              "SkillStatusChangeType": "Veil",
+              "MinDurationSec": 60,
+              "MaxDurationSec": 60,
+              "MinDuplicationDurationSec": 12,
+              "MaxDuplicationDurationSec": 12,
+              "EffectCoefficient": 100
+            },
+            "StatusCondition": null
+          }
+        ]
+      }
+    ]
   }
 ]
